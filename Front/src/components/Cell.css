@@ -1,0 +1,71 @@
+
+.cell{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    display: inline-block;
+}
+.unknown {
+    background-color: lightgray;
+}
+.water {
+    background-color: blue;
+}
+.water.none {
+    background-color: darkblue;
+}
+.boat {
+    background-color: darkgrey;
+}
+.boat.none {
+    background-color: lightgreen;
+}
+.boat.hit {
+    background-color: orange;
+}
+.boat.sunk {
+    background-color: red;
+}
+.focus {
+    border-color: green;
+}
+
+.horizontal {
+    border-top: solid 3px purple;
+    border-bottom: solid 3px purple;
+}
+
+.horizontal.origin {
+    border-left: solid 3px purple;
+    border-right: solid 3px transparent;
+}
+
+.horizontal.end {
+    border-right: solid 3px purple;
+    border-left: solid 3px transparent;
+}
+
+.horizontal.middle {
+    border-right: solid 3px transparent ;
+    border-left: solid 3px transparent;
+}
+
+.vertical {
+    border-left: solid 3px purple;
+    border-right: solid 3px purple;
+}
+
+.vertical.origin {
+    border-top: solid 3px purple;
+    border-bottom: solid 3px transparent;
+}
+
+.vertical.end {
+    border-bottom: solid 3px purple;
+    border-top: solid 3px transparent;
+}
+
+.vertical.middle {
+    border-top: solid 3px transparent ;
+    border-bottom: solid 3px transparent;
+}
